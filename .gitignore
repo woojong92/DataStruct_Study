@@ -1,3 +1,11 @@
+#.dev/ .exe
+*.dev
+*.exe
+*.layout
+*.o
+Makefile.win
+*.win
+
 # Created by https://www.gitignore.io/api/c,c++
 
 ### C ###
