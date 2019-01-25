@@ -5,6 +5,12 @@ void Swap(int arr[], int idx1, int idx2)
 	arr[idx2] = temp;	
 }
 
+// left : 정렬대상의 가장 왼쪽 지점을 가리키는 이름
+// right : 정렬대상의 가장 오른쪽 지점을 가리키는 이름
+// pivot : 중심점, 중심축을 의미
+// low : 피벗을 제외한 가장 왼쪽에 위치한 지점을 가리키는 이름
+// high : 피벗을 제외한 가장 오른쪽에 위치한 지점을 가리키는 이름 
+
 int Partition(int arr[], int left, int right)
 {
 	int pivot = arr[left];	// 피벗의 위치는 가장 왼쪽
